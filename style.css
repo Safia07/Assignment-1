@@ -3,6 +3,7 @@
 header {
     background-color: blue;
     color: white;
+    font-family: 'Fredoka', sans-serif; 
     padding: 20px;
     grid-area: header;
 }
@@ -17,14 +18,26 @@ body {
      "footer footer footer";
     }
 
+    
 nav {
     background-color: orange;
     color: rgb(204, 213, 221);
     display: inline-block;
-    font-family: 'Fredoka', sans-serif;
-    /*list-style: none;
-    text-align: center;*/
+    font-family: 'Fredoka', sans-serif; /* From Google Fonts */
+    list-style: none;
+    text-align: center;
     grid-area: nav;
+}  
+
+
+.menu ul li {
+    background-color: orange;
+    color: black;
+    display: inline-block;
+    width: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style: none;
+    text-align: center;
 }
 
 main {
