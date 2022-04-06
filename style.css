@@ -52,7 +52,7 @@ aside {
 }
 
 footer {
-    background-color: darkgreen;
+    background-color: lightblue;
     color: white;
     grid-area: footer;
 }
