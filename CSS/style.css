@@ -55,14 +55,14 @@ main {
     grid-area: main;
 }
 
-
-
-/* Aside */
-
-aside {
-    background-color: lightgreen;
-    grid-area: aside;
+.s1 {
+    background-color: purple;
+    display: block;
+    width: auto;
+    height: 100%;
+    float: left;
 }
+
 
 /* Footer */
 
