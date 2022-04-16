@@ -79,6 +79,16 @@ main {
     text-align: center;
 }
 
+/* Contact */
+
+#contact input[type="text"],
+#contact textarea {
+  width: 98.5%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
 
 /* Footer */
 
