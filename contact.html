@@ -30,22 +30,32 @@
 
     </nav>
 
+    <!-- Header -->
+
     <header>
         <h1>Contact form</h1>
     </header>
+
+    <!-- Main -->
     
-    <main>
-            <form id="contact" action="mailto:safia.bi07@gmail.com?subject=Contact Form"" method="post">
-              <fieldset>
-                <input placeholder="Name" type="text" tabindex="1" required autofocus>
-              </fieldset>
-              <fieldset>
-                <textarea placeholder="Message" tabindex="5"></textarea>
-              </fieldset>
-              <fieldset>
-                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-              </fieldset>
-            </form>
+    <main class="Form">
+
+        <form action="action" mailto:safia.bi@gmail.com?subject="Contact Form" method="POST">
+            <label for="firstname">First Name: </label>
+            <input type="firstname" name="firstname" />
+
+        <label for="surname">Surname: </label>
+        <input type="surname" name="surname" />
+
+        <label for="emailaddress">Email Address: </label>
+        <input type="emailaddress" name="emailaddress" />
+
+        <label for="Message">You're message:</label>
+        <textarea name="body"></textarea>
+
+        <input type="submit" class="submit" value="Submit" name="submit" />
+        </form>
+
     </main>
     
     
