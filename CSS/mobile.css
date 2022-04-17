@@ -79,10 +79,9 @@ menu {
     text-decoration: none;
 }
 
-/* body */
+/* img */
 
-body {
-    /* image-resolution: contain; */
-    max-width: fit-content;
-    min-width: auto;
+img {
+    width: fit-content;
+    height: fit-content;
 }
