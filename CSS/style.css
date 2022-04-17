@@ -1,8 +1,8 @@
-* {
+/* * {
     border: 0%;
     padding: 0.09%;
     margin: 0%;
-}
+} */
 
 /* Header */
 
@@ -10,7 +10,7 @@ header {
     background-color: blue;
     color: white;
     font-family: 'Fredoka', sans-serif; 
-    padding: 20px;
+    padding: 0px;
     grid-area: header;
 }
 
@@ -37,9 +37,10 @@ nav {
     font-family: 'Fredoka', sans-serif; /* From Google Fonts */
     list-style: none;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     grid-area: nav;
 }  
+
 
 /* Menu */
 
@@ -61,6 +62,7 @@ main {
     grid-area: main;
     padding: 20px;
 }
+
 
 .s1 {
     background-color: purple;
@@ -121,14 +123,5 @@ footer {
     padding: 20px;
     grid-template-columns: auto auto auto;
     grid-area: footer;
-
-    /* display: grid;
-    grid-template-columns: 20% 60% 20%;
-    grid-template-rows: auto;
-    grid-template-areas: 
-     "nav nav nav"
-     "header header header"
-     "main main main"
-     "footer footer footer"; */
 }
 
