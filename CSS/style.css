@@ -29,6 +29,15 @@ body {
      "footer footer footer";
     }
 
+h1 {
+    padding: 1em;
+}
+
+p {
+    padding: 1em;
+}
+
+
  /* Navigation */
 
 nav {
