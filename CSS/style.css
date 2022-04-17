@@ -8,7 +8,7 @@
 
 header {
     background-color: #AA5B71;
-    color: #66536B;
+    color: #000000;
     font-family: 'Fredoka', sans-serif; 
     padding: 0px;
     grid-area: header;
@@ -33,7 +33,7 @@ body {
 
 nav {
     background-color: #864F6F;
-    color: rgb(204, 213, 221);
+    color: rgb(0, 0, 0);
     display: inline-block;
     font-family: 'Fredoka', sans-serif; /* From Google Fonts */
     list-style: none;
@@ -53,6 +53,11 @@ nav {
     font-family: Georgia, 'Times New Roman', Times, serif;
     list-style: none;
     text-align: center;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
 }
 
 /* Main */
@@ -121,5 +126,15 @@ footer {
     padding: 20px;
     grid-template-columns: auto auto auto;
     grid-area: footer;
+}
+
+/* .footer ul li {
+    /* background-color: orange; */
+    /* color: black; */
+/* } */ 
+
+.footer a {
+    color: black;
+    text-decoration: none;
 }
 
