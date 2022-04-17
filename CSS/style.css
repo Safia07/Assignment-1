@@ -18,6 +18,7 @@ header {
 
 body {
     text-align: center;
+    image-resolution: contain;
     background-color: #C37575;
     display: grid;
     grid-template-columns: 20% 60% 20%;
