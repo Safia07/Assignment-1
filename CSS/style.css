@@ -50,6 +50,7 @@ nav {
     font-family: 'Fredoka', sans-serif; /* From Google Fonts */
     list-style: none;
     text-align: center;
+    width: 100%;
     padding: 1em;
     grid-area: nav;
 }  
