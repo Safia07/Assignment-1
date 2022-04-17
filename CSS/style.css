@@ -7,8 +7,8 @@
 /* Header */
 
 header {
-    background-color: #BBADFF;
-    color: white;
+    background-color: #AA5B71;
+    color: #66536B;
     font-family: 'Fredoka', sans-serif; 
     padding: 0px;
     grid-area: header;
@@ -18,7 +18,7 @@ header {
 
 body {
     text-align: center;
-    background-color: #8E94F2;
+    background-color: #C37575;
     display: grid;
     grid-template-columns: 20% 60% 20%;
     grid-template-rows: auto;
@@ -32,7 +32,7 @@ body {
  /* Navigation */
 
 nav {
-    background-color: #8895B3;
+    background-color: #864F6F;
     color: rgb(204, 213, 221);
     display: inline-block;
     font-family: 'Fredoka', sans-serif; /* From Google Fonts */
@@ -46,7 +46,7 @@ nav {
 /* Menu */
 
 .menu ul li {
-    background-color: #8895B3;
+    background-color: 864F6F;
     color: black;
     display: inline-block;
     width: 10%;
@@ -66,7 +66,6 @@ main {
 
 
 .s1 {
-    background-color: purple;
     display: block;
     width: 100%;
     float: left;
@@ -74,7 +73,6 @@ main {
 }
 
 .s2 {
-    background-color: rgb(0, 77, 128);
     display: block;
     width: 100%;
     float: left;
@@ -82,7 +80,6 @@ main {
 }
 
 .s3 {
-    background-color: rgb(0, 128, 85);
     display: block;
     width: 100%;
     float: left;
@@ -94,8 +91,8 @@ main {
 #contact input[type="text"],
 #contact textarea {
   width: 98.5%;
-  border: 1px solid rgb(255, 255, 255);
-  background: rgb(255, 255, 255);
+  border: 1px solid #7E5C79;
+  background: #7E5C79;
   margin: 0 0 5px;
   padding: 10px;
 }
@@ -119,7 +116,7 @@ footer {
     display: grid;
     grid-template-columns: 30%, 30%, 30%;
     align-content: center;
-    background-color: lightblue;
+    background-color: #864F6F;
     color: rgb(0, 0, 0);
     padding: 20px;
     grid-template-columns: auto auto auto;
