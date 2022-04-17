@@ -1,3 +1,4 @@
+
 /* * {
     border: 0%;
     padding: 0.09%;
@@ -18,7 +19,7 @@ header {
 
 body {
     text-align: center;
-    image-resolution: contain;
+    /* image-resolution: contain; */
     background-color: #C37575;
     display: grid;
     grid-template-columns: 20% 60% 20%;
@@ -81,33 +82,19 @@ nav {
 /* Main */
 
 main {
-    background-color: none;
+    /* background-color: none; */
     color: black;
     grid-area: main;
     padding: 20px;
 }
 
-
-.s1 {
+section {
     display: block;
     width: 100%;
     float: left;
     text-align: center;
 }
 
-.s2 {
-    display: block;
-    width: 100%;
-    float: left;
-    text-align: center;
-}
-
-.s3 {
-    display: block;
-    width: 100%;
-    float: left;
-    text-align: center;
-}
 
 /* Contact */
 
